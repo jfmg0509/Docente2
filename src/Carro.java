@@ -19,6 +19,6 @@ class Carro extends Vehiculo {
 
     @Override
     public void imprimir() {
-        System.out.println("Carro - Placa: " + placa);
+        System.out.println("La placa del carro es:  " + placa);
     }
 }

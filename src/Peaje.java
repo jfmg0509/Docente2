@@ -34,13 +34,13 @@ class Peaje {
 
     // Muestra el resumen de todos los vehículos y montos totales
     public void imprimir() {
-        System.out.println("\n--- Reporte del Peaje ---");
+        System.out.println("\n--- Reporte de ganancias del Peaje ---"+ nombre + " en " + departamento);
         for (Vehiculo v : vehiculos) {
             v.imprimir();
         }
-        System.out.println("Total carros: " + totalCarros);
-        System.out.println("Total motos: " + totalMotos);
-        System.out.println("Total camiones: " + totalCamiones);
-        System.out.println("Total peaje recaudado: $" + totalPeaje);
+        System.out.println("Número de carros que pasaron por el peaje: " + totalCarros);
+        System.out.println("Número de motos que pasaron por el peaje: " + totalMotos);
+        System.out.println("Número de camiones que pasaron por el peaje: " + totalCamiones);
+        System.out.println("Total recaudado para el peaje " + nombre +" = USD " + totalPeaje);
     }
 }

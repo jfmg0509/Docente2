@@ -19,6 +19,6 @@ class Moto extends Vehiculo {
 
     @Override
     public void imprimir() {
-        System.out.println("Moto - Placa: " + placa);
+        System.out.println("La placa de la moto es: : " + placa);
     }
 }

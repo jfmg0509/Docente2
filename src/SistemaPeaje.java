@@ -9,9 +9,9 @@ public class SistemaPeaje {
 
         try {
             // Datos iniciales
-            System.out.print("Ingrese el nombre del peaje: ");
+            System.out.print("Ingrese el lugar del peaje: ");
             String nombre = scanner.nextLine();
-            System.out.print("Ingrese el departamento: ");
+            System.out.print("Ingrese el nombre del peaje: ");
             String departamento = scanner.nextLine();
 
             peaje = new Peaje(nombre, departamento);

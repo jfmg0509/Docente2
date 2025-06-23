@@ -23,6 +23,6 @@ class Camion extends Vehiculo {
 
     @Override
     public void imprimir() {
-        System.out.println("Camión - Placa: " + placa + " - Ejes: " + numeroEjes);
+        System.out.println("La placa del camión es: " + placa + " Tiene: " + numeroEjes + " ejes.");
     }
 }
